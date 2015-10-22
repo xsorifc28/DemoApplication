@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
         myButton.setOnClickListener(incrementListener);
         myResetButton.setOnClickListener(resetListener);
         myCheckbox.setOnCheckedChangeListener(enableCounterListener);
+        locButton.setOnClickListener(updateLocListener);
     }
 
     View.OnClickListener incrementListener = new View.OnClickListener() {
